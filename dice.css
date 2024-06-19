@@ -20,7 +20,6 @@ body {
   margin: 5% 20%;
   background-color: rgb(205, 219, 227);
   position: absolute;
-  border-radius: 15px;
 }
 
 .player-box-wrapper {
@@ -182,15 +181,15 @@ button.btn-hold {
   top: 200px;
 }
 
-@media (max-width: 365px) {
+@media (max-width: 380px) {
   #divs-wrapper {
-    width: 365px;
+    width: 345px;
     height: 88vh;
     margin: 7% 5%;
   }
   .player-0-panel,
   .player-1-panel {
-    height: 35vh;
+    height: 45vh;
   }
   button.btn-roll {
     margin-top: -10px;
@@ -211,6 +210,9 @@ button.btn-hold {
     margin-top: -30px;
     left: 145px;
   }
+  button.btn-hold {
+    margin-top: 1px;
+  }
   button.btn-new {
     margin: -430px auto;
     padding: 6px;
@@ -226,15 +228,33 @@ button.btn-hold {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 30px) {
+  #divs-wrapper {
+    width: 385px;
+    height: 78vh;
+    margin: 7% 5%;
+  }
+  button.btn-roll {
+    margin-top: -19px;
+    left: 140px;
+  }
+  button.btn-hold {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 350px) {
   #divs-wrapper {
     width: 370px;
     height: 88vh;
     margin: 7% 5%;
   }
   button.btn-roll {
-    margin-top: -30px;
+    margin-top: -19px;
     left: 140px;
+  }
+  button.btn-hold {
+    margin-top: 12px;
   }
   .player-box-wrapper {
     height: 50vh;
@@ -242,12 +262,12 @@ button.btn-hold {
   .final-score {
     top: 510px;
     width: 160px;
-    margin-top: -30px;
+    margin-top: -45px;
   }
   button.btn-new {
     margin: -430px auto;
     padding: 6px;
-    top: 410px;
+    top: 390px;
     margin-left: 140px;
   }
 }
